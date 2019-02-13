@@ -7,6 +7,7 @@ body {
   letter-spacing: 3px;
   font-weight: 400;
   text-align: center;
+  border-radius: 3px;
 }
 
 h1 {
@@ -35,11 +36,11 @@ a:hover {
   color: #7ED3B2;
 }
 
-ul {
-  padding: 0px;
+.list-inline {
+  padding-left: 0px;
 }
 
-li {
+.list-inline > li {
   display: inline-block;
   padding: 30px;
 }
@@ -63,7 +64,7 @@ li {
   padding: 50px 50px;
 }
 
-.socialnetwork {
+#socialnetwork {
   padding: 0px 50px;
   margin: 0px 70px;
   font-size: 14px;
@@ -71,7 +72,7 @@ li {
 
 .img_avatar {
   border-radius: 50%;
-  width: 190px;
+  width: 20%;
 }
 
 @media (max-width: 960px) {
@@ -88,4 +89,37 @@ li {
   .container {
     width: 300px;
   }
+}
+
+#sidebar {
+  background-color: #7ED3B2;
+  position: fixed;
+  width: 150px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  padding-top: 50px;
+  color: white;
+  font-size: 35;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#sidebar li {
+  padding: 20px;
+}
+
+#sidebar a {
+  color: white;
+}
+
+#sidebar a:hover {
+  opacity: 0.6;
+}
+
+.container {
+  margin-left: 150px;
 }

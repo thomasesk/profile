@@ -7,16 +7,23 @@
     <link rel="stylesheet" href="style.css">
   </header>
   <body>
+    <div id="sidebar">
+      <ul>
+        <li><a href="#header"><i class="fas fa-user-alt"></i></a></li>
+        <li><a href="#socialnetwork"><i class="fas fa-network-wired"></i></a></li>
+        <li><a href="#movies"><i class="fas fa-film"></i></a></li>
+      </ul>
+    </div>
     <div class="container">
-      <div class="card header">
+      <div class="card" id="header">
         <img src="images/profile_picture.jpg" alt="La photo de profile de moi" class="img_avatar">
         <h1>Thomas Eskenazi</h1>
         <h2 id="sous-titre">Silence... Full Stack Developer growing here<br><br></h2>
         <a class="btn" href="https://www.youtube.com/watch?v=TU5vZn_wYZc">Click Mate</a>
       </div>
-      <div class="card socialnetwork">
-        <ul>
-          <li class:"list-inline">
+      <div class="card" id="socialnetwork">
+        <ul class="list-inline">
+          <li>
             <a href="https://www.facebook.com/profile.php?id=1150628114">
             <i class="fab fa-facebook-f"></i>   Facebook</a>
           </li>
@@ -30,7 +37,7 @@
           </li>
         </ul>
       </div>
-      <div class="card movies">
+      <div class="card" id="movies">
         <table>
            <tbody>
             <tr>
